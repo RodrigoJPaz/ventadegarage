@@ -1,0 +1,193 @@
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background-image: url("assets/img_producto/fondo.jpg");
+  background-size: contain;
+}
+
+/*  Estilo del componente Home.jsx*/
+
+.imgHome{
+  margin: 45px auto;
+  height:450px;
+  width: 450px;
+  background-image: url("./assets/img_producto/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+  border-radius: 400px;
+
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.buttonHome{
+  border: 0;
+  width: 150px;
+  height: 35px;
+  border-radius: 50px;
+  margin: 30px;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+/*  Estilo del componente NavBar.jsx*/
+.logo{
+  width: 100px;
+  border-radius: 100%;
+}
+.bloqueNav{
+  justify-content: center;
+}
+.navbar {
+  font-size:large;
+}
+
+.position {
+  position: sticky;
+  top: 0%;
+  z-index: 1; }
+
+.navTextStyle {
+  transition: 1s;
+    margin: 0.5rem0;
+    font-size: 1.2rem;
+    font-family: "Varela Round", sans-serif;
+    filter: drop-shadow(0.5px 0.5px 1px black);
+    letter-spacing: 0.1rem;
+}
+
+.navTextStyle:hover {
+  transform: scale(1.03);
+  color: #f3c306;
+}
+/*  Estilo del componente CardWidget.jsx*/
+
+.bloqueBoton{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/*  Estilo del componente ItemList.jsx*/
+
+.BloqueProd{
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+.listProd{
+  box-shadow: 1px 1px 9px rgb(207, 203, 203);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 2s;
+}
+.card-body{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listProd:hover{
+  transform: scale(1.02);
+}
+
+/*  Estilo del componente Item.jsx*/
+
+.imgProd{
+  width: 250px;
+  margin: 0 auto;
+}
+.cardProd{
+  height: 550px;
+  text-align: center;
+  width: 300px;
+}
+
+/*  Estilo del componente Cart.jsx*/
+
+.BloqueCart{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 30px auto;
+}
+
+/*  Estilo del componente ItemCount.jsx*/
+
+.BloqueCount{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.SpanCount{
+  font-weight: bold;
+  margin: 10px;
+}
+
+/*  Estilo del componente ItemDetail.jsx*/
+
+.cardProdDetail{
+  margin: 20px auto;
+  height: 650px;
+  text-align: center;
+  width: 500px;
+}
+
+/* texto email */
+
+.emailText {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.texto {
+  color: rgb(237, 237, 237);
+  margin-top: 1px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.emailText2 {
+  color: rgb(237, 237, 237);
+  margin-top: 1px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+/*  Estilo del componente ItemListContainer.jsx*/
+
+.titulo{
+    filter: drop-shadow(1px 1px 1px black)
+}
+
+
+.TituloPrincipal{
+  text-align: center;
+  font-size: 5rem;
+	background: linear-gradient(to right, #c8c8cf 20%, #757377 40%, #f3c306 60%, #c8c8cf 80%);
+	background-size: 200% auto;
+	text-decoration: bold;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: shine 5s linear infinite; 
+  box-shadow: 1px 1px 50px rgb(2, 2, 2);
+  background-color: #757377;
+   
+  }
+  
+  @keyframes shine {
+	to {
+	  background-position: 200% center;
+  } 
+}

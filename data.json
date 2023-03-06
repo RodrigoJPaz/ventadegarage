@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "img": 1,
+        "producto": "Licuadora",
+        "descripcion": "Moulinex - Licuadora Perfect Mix",
+        "precio": 45990,
+        "category": "electrodomesticos",
+        "cantidad": 15
+    },
+    {
+        "id": 2,
+        "img": 2,
+        "producto": "Rayo McQueen",
+        "descripcion": "Autos Cars 2022 De Metal Varios Modelos Disney Pixar Mattel",
+        "precio": 6490,
+        "category": "juguetes",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "img": 3,
+        "producto": "Sofa - Sillon",
+        "descripcion": "Sillon Sofa Divan Cama 1 Plaza Con Respaldo Blanco",
+        "precio": 75000,
+        "category": "muebles",
+        "cantidad": 7
+    },
+    {
+        "id": 4,
+        "img": 4,
+        "producto": "Pelota de futbol",
+        "descripcion": "PELOTA ADIDAS AL RIHLA",
+        "precio": 550000,
+        "category": "juguetes",
+        "cantidad": 2
+    },
+    {
+        "id": 5,
+        "img": 5,
+        "producto": "Seca platos",
+        "descripcion": "Seca Platos Escurridor Inoxidable Aluminio Dos Niveles 65cm.",
+        "precio": 55000,
+        "category": "accesorios",
+        "cantidad": 10
+    },
+    {
+        "id": 6,
+        "img": 6,
+        "producto": "Batidora",
+        "descripcion": "Batidora Planetaria Electrolux Experience EKM40",
+        "precio": 550000,
+        "category": "electrodomesticos",
+        "cantidad": 2
+    },
+    {
+        "id": 7,
+        "img": 7,
+        "producto": "Olla eléctrica",
+        "descripcion": "Olla eléctrica Electrolux ECC20 - 630W 60Hz",
+        "precio": 15599,
+        "category": "electrodomesticos",
+        "cantidad": 21
+    },
+    {
+        "id": 8,
+        "img": 8,
+        "producto": "Comoda - Cajonera",
+        "descripcion": "Comoda Cajonera Dormitorio Cama Oferta Melamina Ote",
+        "precio": 200500,
+        "category": "muebles",
+        "cantidad": 5
+    },
+    {
+        "id": 9,
+        "img": 9,
+        "producto": "Organizador",
+        "descripcion": "Organizador Maquillaje Alajero Bijouterie Acrilico Accesorio",
+        "precio": 4999,
+        "category": "accesorios",
+        "cantidad": 3
+    },
+    {
+        "id": 10,
+        "img": 10,
+        "producto": "Buzz LightGear",
+        "descripcion": "Muñeco Buzz Cae Por Tu Voz Toy Story 4 Original 65 Full",
+        "precio": 67500,
+        "category": "juguetes",
+        "cantidad": 35
+    }
+
+]
